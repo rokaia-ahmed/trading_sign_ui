@@ -77,6 +77,7 @@ class _SignInScreenState extends State<SignInScreen> {
                               top: 4.h,
                               left: 6.w,
                               right: 6.w,
+                              bottom: 5.h,
                               child: ToggleSwitch(
                                 minWidth: 159.sp,
                                 minHeight: 33.sp,
@@ -172,7 +173,7 @@ class _SignInScreenState extends State<SignInScreen> {
                             text: 'Password',
                             icon:  Icon(Icons.visibility_off_outlined,
                              color: const Color(0Xff969696),
-                              size: 22.14.sp,
+                              size: 21.14.sp,
                             ),
                         ),
                         SizedBox(

@@ -23,15 +23,16 @@ Widget buildTextForm({ required String text,Widget? icon} ){
       decoration: InputDecoration(
         suffixIcon: icon,
         contentPadding: EdgeInsets.only(
-          top: 15.h,
-          bottom: 18.h,
+          top: 14.h,
+          bottom: 16.5.h,
           left: 14.0.w,
+          right: 13.21.w,
         ),
         hintText: text ,
         hintStyle: TextStyle(
           color: const Color(0XFF969696),
           fontSize: 12.sp,
-          fontWeight: FontWeight.w800,
+          fontWeight: FontWeight.w900,
           fontFamily: 'Mon',
         ),
         enabledBorder: InputBorder.none,
