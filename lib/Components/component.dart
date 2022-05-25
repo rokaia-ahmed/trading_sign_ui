@@ -31,7 +31,8 @@ Widget buildTextForm({ required String text,Widget? icon} ){
         hintStyle: TextStyle(
           color: const Color(0XFF969696),
           fontSize: 12.sp,
-          fontWeight: FontWeight.w400,
+          fontWeight: FontWeight.w800,
+          fontFamily: 'Mon',
         ),
         enabledBorder: InputBorder.none,
         focusedBorder: InputBorder.none,

@@ -106,7 +106,8 @@ class _SignInScreenState extends State<SignInScreen> {
                         style: TextStyle(
                           color: green,
                           fontSize: 16.sp,
-                          fontWeight: FontWeight.w400,
+                          fontWeight: FontWeight.bold,
+                          fontFamily: 'lato'
                         ),
                         ):
                         Text('Practise with paper trading',
@@ -122,8 +123,9 @@ class _SignInScreenState extends State<SignInScreen> {
                         Text('Log in',
                           style: TextStyle(
                             color: green,
-                            fontSize: 18.sp,
-                            fontWeight: FontWeight.w500,
+                            fontSize: 19.sp,
+                            fontWeight: FontWeight.w800,
+                            fontFamily: 'lato',
                           ),
                         ),
                         SizedBox(
@@ -135,7 +137,8 @@ class _SignInScreenState extends State<SignInScreen> {
                               style: TextStyle(
                                 color: Colors.black,
                                 fontSize: 12.sp,
-                                fontWeight: FontWeight.w400,
+                                fontWeight: FontWeight.w800,
+                                fontFamily: 'Mon'
                               ),
                             ),
                             TextButton(
@@ -149,7 +152,8 @@ class _SignInScreenState extends State<SignInScreen> {
                                   style: TextStyle(
                                     color: green,
                                     fontSize: 12.sp,
-                                    fontWeight: FontWeight.w400,
+                                    fontWeight: FontWeight.w800,
+                                    fontFamily: 'Mon'
                                   ),
                                 ),
                             ),
@@ -178,7 +182,8 @@ class _SignInScreenState extends State<SignInScreen> {
                           style: TextStyle(
                             color: green,
                             fontSize: 12.sp,
-                            fontWeight: FontWeight.w400,
+                            fontWeight: FontWeight.w800,
+                            fontFamily: 'Mon',
                           ),
                         ),
                         SizedBox(
